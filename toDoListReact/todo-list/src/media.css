@@ -1,0 +1,42 @@
+@media only screen and (max-width: 700px) {
+    body{
+        padding: 0%;
+    }
+    #clearTasks{
+    font-size: 10px;
+    height: 35px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 40px;
+    }
+    #listTitle{
+        font-size: x-large;
+        margin-left: 100px;
+        position: relative;
+    }
+    #inputTask{
+        height: 35px;
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+   #bigScreenMenu{
+       display: none;
+   }
+   #smallScreenMenu{
+       display: block;
+   }
+   #dummyContent{
+       margin: auto;
+   }
+} 
+
+
+@media only screen and (max-width: 1200px) {
+    #bigScreenMenu{
+        width: 40%;
+    }
+    #clearTasks{
+        height: 8vh;
+    }
+}
